@@ -1,0 +1,23 @@
+.button
+{
+  color: black;
+  background-color: lightblue;
+  border: 1px solid grey;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 1.1rem;
+  padding: 1.1rem;
+  transition: background .5s ease;
+
+  &:hover, &:focus
+  {
+    background: lightblue;
+    color: grey;
+  }
+  &:active
+  {
+    background: white;
+    transition: transform 1s ease;
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,25 @@
+
+.reply
+{
+  display: flex;
+  justify-content: space-between;;
+
+}
+
+.reply__topic
+{
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.reply__stats
+{
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.reply__actions
+{
+  flex-shrink: 0;
+}
